@@ -34,11 +34,13 @@ const config = {
   ],
 
   devServer: {
+    disableHostCheck: true,
     compress: true,
     contentBase: 'dist',
     historyApiFallback: true,
     hot: true,
     noInfo: true,
+    inline: true,
   },
 
   devtool: process.env.NODE_ENV === 'production' ? false : 'source-map',
