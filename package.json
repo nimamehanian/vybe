@@ -24,11 +24,11 @@
     "copy": "yarn run cp-index && yarn run cp-favicon && webpack --progress",
     "build": "yarn run clean && yarn run copy",
     "start": "yarn run build && webpack-dev-server --inline",
-    "test": "jest",
-    "test:watch": "yarn run test -- --watch"
+    "deploy": "NODE_ENV=production && firebase deploy"
   },
   "dependencies": {
     "connected-react-router": "6.0.0",
+    "firebase": "5.7.1",
     "history": "4.7.2",
     "react": "16.7.0",
     "react-dom": "16.7.0",
