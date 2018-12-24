@@ -34,7 +34,6 @@ const config = {
   ],
 
   devServer: {
-    disableHostCheck: true,
     compress: true,
     contentBase: 'dist',
     historyApiFallback: true,
