@@ -22,9 +22,17 @@ const config = {
       {
         test: /\.(gif|jpg|png|svg|eot|otf|ttf|woff(2)?)$/,
         exclude: /node_modules/,
-        loader: 'url-loader?limit=100000&name=/[name].[ext]',
+        loader: 'url-loader?limit=1000000&name=/[name].[ext]',
       },
     ],
+  },
+
+  resolve: {
+    alias: {
+      components: `${__dirname}/src/components`,
+      fonts: `${__dirname}/src/fonts`,
+      images: `${__dirname}/src/images`,
+    },
   },
 
   plugins: [
