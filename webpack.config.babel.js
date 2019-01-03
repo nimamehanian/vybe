@@ -22,7 +22,7 @@ const config = {
       {
         test: /\.(gif|jpg|png|svg|eot|otf|ttf|woff(2)?)$/,
         exclude: /node_modules/,
-        loader: 'url-loader?limit=1000000&name=/[name].[ext]',
+        loader: 'url-loader?limit=100000&name=/[name].[ext]',
       },
     ],
   },
@@ -32,6 +32,8 @@ const config = {
       components: `${__dirname}/src/components`,
       fonts: `${__dirname}/src/fonts`,
       images: `${__dirname}/src/images`,
+      styles: `${__dirname}/src/styles`,
+      utils: `${__dirname}/src/utils`,
     },
   },
 

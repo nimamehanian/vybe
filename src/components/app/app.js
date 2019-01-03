@@ -1,18 +1,12 @@
 import React, { Component } from 'react';
 // import { Route, Switch } from 'react-router-dom';
+// import styled from 'styled-components';
 import { hot } from 'react-hot-loader';
-import styled from 'styled-components';
-import GlobalStyles from '../../styles/global';
-import { $cream } from '../../styles/colors';
+import Header from 'components/header/header';
+import Hero from 'components/hero/hero';
+import Amenities from 'components/amenities/amenities';
 
-const Test = styled.div`
-  color: ${$cream};
-  background: #444;
-  height: 60px;
-  font-size: 20px;
-  line-height: 3;
-  padding: 0px 0px 0px 8px;
-`;
+import GlobalStyles from 'styles/global';
 
 class App extends Component {
   constructor(props) {
@@ -20,12 +14,17 @@ class App extends Component {
     this.state = {};
   }
 
+  componentDidMount() {
+    // window.Intercom('boot', { app_id: 'iw7gkpn2' });
+  }
+
   render() {
     return (
       <div>
         <GlobalStyles />
-        <Test>yolo, baby</Test>
-        {/* <Header /> */}
+        <Header />
+        <Hero />
+        <Amenities />
         {/* <Switch> */}
         {/* <Route exact path="/pathA" component={CompA} /> */}
         {/* <Route exact path="/pathB" component={CompB} /> */}
