@@ -5,6 +5,7 @@ import { hot } from 'react-hot-loader';
 import Header from 'components/header/header';
 import Hero from 'components/hero/hero';
 import Amenities from 'components/amenities/amenities';
+import Locations from 'components/locations/locations';
 
 import GlobalStyles from 'styles/global';
 
@@ -25,6 +26,7 @@ class App extends Component {
         <Header />
         <Hero />
         <Amenities />
+        <Locations />
         {/* <Switch> */}
         {/* <Route exact path="/pathA" component={CompA} /> */}
         {/* <Route exact path="/pathB" component={CompB} /> */}

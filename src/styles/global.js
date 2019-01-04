@@ -29,7 +29,6 @@ const GlobalStyles = createGlobalStyle`
     text-decoration: none;
     font-family: 'Lato Bld';
     transition: color 100ms ease;
-    -webkit-tap-highlight-color: #0000;
     &:link, &:active, &:visited {
       color: ${$link};
     }
