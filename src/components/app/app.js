@@ -6,6 +6,7 @@ import Header from 'components/header/header';
 import Hero from 'components/hero/hero';
 import Amenities from 'components/amenities/amenities';
 import Locations from 'components/locations/locations';
+import Footer from 'components/footer/footer';
 
 import GlobalStyles from 'styles/global';
 
@@ -27,6 +28,7 @@ class App extends Component {
         <Hero />
         <Amenities />
         <Locations />
+        <Footer />
         {/* <Switch> */}
         {/* <Route exact path="/pathA" component={CompA} /> */}
         {/* <Route exact path="/pathB" component={CompB} /> */}

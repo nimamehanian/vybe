@@ -7,7 +7,6 @@ import BrandonLte from 'fonts/brandon/brandon-light.woff2';
 import LatoBld from 'fonts/lato/lato-bold.woff2';
 import LatoReg from 'fonts/lato/lato-regular.woff2';
 import LatoIta from 'fonts/lato/lato-italic.woff2';
-// import LatoLte from 'fonts/lato/lato-light.woff2';
 
 import {
   $charcoal,

@@ -32,7 +32,7 @@ class Header extends Component {
       <div>
         <HeaderContainer>
           <span>vybe</span>
-          <span>x</span>
+          <span />
         </HeaderContainer>
       </div>
     );
